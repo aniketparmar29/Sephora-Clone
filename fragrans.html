@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/fragrans.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- <----Navbar---->  
+    <div id="offer">
+        <p onclick="openoffer()">Enjoy free  shipping on all orders with code FREESHIP. See terms <i class="fa-solid fa-caret-right"></i></p>
+    </div>
+    <div class="popupoffer">
+        <p class="closepopupoffer" onclick="closeoffer()">&#10005</p>
+        <h5>Free standard shipping on orders with code FREESHIP</h5>
+        <p class="ident">†Free standard shipping offer valid on merchandise purchases made through 11:59pm PT on 9/21/22 on sephora.com and sephora.ca. Offer not applicable to Same Day Shipping orders. Promotion offer has no cash value and may not be altered, sold, or transferred. May be used in conjunction with other offers. Sephora, JCPenney, and Kohl's employees are not eligible for this offer. Offer is subject to change, alteration, or termination by Sephora at its sole discretion at any time.</p>
+    </div>
+    <div class="middlenav">
+        <a href="/index.html"><img id="logo"src="https://www.sephora.com/img/ufe/logo.svg" alt=""></a>
+        <div class="input-icons">
+        <i class="fa fa-search icon"> Search</i>
+        <input type="text" class="input-field"name="serch" id="serch" >
+    </div>
+        <button id="stores">
+
+            <img src="https://www.sephora.com/img/ufe/icons/stores.svg" alt="">
+            <div>
+            <span>
+                Stores & Services
+                <span id="bbstore">
+                    Choose Your Store
+                </span>
+            </span>
+        </div>
+        </button>
+        <button id="comn">
+            <img src="https://www.sephora.com/img/ufe/icons/community.svg" alt="">
+            <span>
+                Community
+            </span>
+        </button>
+            <button onclick="opensinin()" id="sing">
+                <img src="https://www.sephora.com/img/ufe/icons/me.svg" alt="">
+                <span>
+                    Sing in
+                </span>
+            </button>
+            <div class="popupsingin">
+                <p class="closesinin" onclick="closesinin()">&#10005</p>
+                <form>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                    <input type="text" name="pass" id="pass" placeholder="Enter Your Password">
+                    <input type="submit" value="Sing in">
+                </form>
+                <button onclick="opensingup()">Create New Account</button>
+            </div>
+            <div class="popupsingup">
+                <p class="closesinup" onclick="closesignup()">&#10005</p>
+                <form>
+                    <input type="email" placeholder="Enter Your Email" name="email" id="email">
+                    <input type="text"  placeholder="Enter Your Password" name="pass" id="pass">
+                    <input type="submit" value="Sing Up">
+                </form>
+            </div>
+        <div class="chcicon">
+        <button>
+            <span><i class="fa-regular fa-comment fa-2x"></i></span>
+        </button>
+        <button>
+            <span><i class="fa-regular fa-heart fa-2x"></i></span>
+        </button>
+        <button>
+            <span><i class="fa-solid fa-basket-shopping fa-2x"></i></span>
+        </button>
+    </div>
+    </div>
+    <div class="mainnav">
+        <div class="openlistw"><a href="">New</a></div>
+        <div class="openlistw2"><a href="">Brands</a></div>
+        <div class="openlistw3"><a href="">Makeup</a></div>
+        <div class="openlistw4"><a href="">Skincare</a></div>
+        <div class="openlistw5"><a href="">Hair</a></div>
+        <div class="openlistw6"><a href="/fragrans.html">Fragrance</a></div>
+        <div class="openlistw7"><a href="">Tool & Brushes</a></div>
+        <div class="openlistw8"><a href="">Bath & Body</a></div>
+        <div class="openlistw9"><a href="">Mini Size</a></div>
+        <div class="openlistw10"><a href="">Gifts</a></div>
+        <div class="openlistw11"><a href="">Beauty Under $20</a></div>
+        <div class="openlistw12"><a href="">Sales & Offers</a></div>
+    </div>
+    <div class="new">
+        <div class="sectext">
+            <div>
+                <a href="">All New</a>
+                <a href="">Just Dropped</a>
+                <a href="">New Makeup</a>
+                <a href="">New Skincare</a>
+                <a href="">New Haircare</a>
+                <a href="">New Fragrance</a>
+                <a href="">New Bath & Body</a>
+                <a href="">New  Tool & Brushes</a>
+            </div>
+            <div>
+                <a href="">The Next Big Thing</a>
+                <a href="">Bestsellers</a>
+                <a href="">Allure Best of Beauty</a>
+                <a href="">Quizzes & Buying Guides</a>
+                <a href="">Clean Beauty Guide</a>
+                <a href="">Clean+ Planet Positive Beauty Guide</a>
+            </div>
+        </div>
+        <div class="secbanner">
+            <img src="https://www.sephora.com/contentimages/meganav/large/2022-6-9-haus-lady-gaga-bundle-b-site-desktop-global-navigation-button-en-us-can.jpg?imwidth=588" alt="">
+            <img src="https://www.sephora.com/contentimages/meganav/large/2022-06-09-june-hair-treatment-mbc-site-desktop-global-navigation-button-US-CAN.jpg?imwidth=588" alt="">
+        </div>
+    </div>
+
+    <!-- midlle part -->
+    <div class="container">
+        <div class="labelt">
+            <p>Fragrance</p>
+            <br>
+            <h2>Fragrance</h2>
+            <br>
+            <p>Women (957)</p>
+            <p>Men (310)</p>
+            <p>Value & Gift Sets (115)</p>
+            <p>Candles & Home Scents (306)</p>
+            <p>Shop by Fragrance Family (865)</p>
+            <p>Vegan (223)</p>
+            <p>Mini Size (326)</p>
+            <p style="color: grey;margin-top:40px;">Filters</p>
+            <div class="profil">
+                <h5>Pickup & Delivery</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>New</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Brand</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Rating</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Concerns</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Sale</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Fragrance Family</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Fragrance Type</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Shopping Preferences</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Size</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Formulation</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Ingredient Preferences</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Age Range</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Skin Type</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Hair Type</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+            <div class="profil">
+                <h5>Price Range</h5>
+                <p>&#8595</p>
+            </div>
+            <hr>
+
+        </div>
+        <div class="main">
+            <div class="topsecmain">
+                <div>
+                    <p>New</p>
+                    <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/new.svg" alt="">
+                </div>
+                <div>
+                    <p>Bestsellers</p>
+                    <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/bestsellers.svg" alt="">
+                </div>
+                <div>
+                    <p>Clean</p>
+                    <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/Category=clean%20beauty%2032.svg" alt="">
+                </div>
+                <div>
+                    <p>Cruelty-Free</p>
+                    <img src="https://www.sephora.com/contentimages/meganav/icons/CrueltyFreeupdated.svg" alt="">
+                </div>
+                <div>
+                    <p>Mini-Size</p>
+                    <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/minis.svg" alt="">
+                </div>
+                <div>
+                    <p>Fragrance Quiz</p>
+                    <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/fragrance_quiz.svg" alt="">
+                </div>
+                <div>
+                    <p>Clean Fragrance Guide</p>
+                    <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/clean_guide.svg" alt="">
+                </div>
+                <div>
+                    <p>Fragrance Notes Guide</p>
+                    <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/fragrances_guide.svg" alt="">
+                </div>
+                <div>
+                    <p>Niche Fragrance</p>
+                    <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/niche_fragrances.svg" alt="">
+                </div>
+                <div>
+                    <p>Best Perfums</p>
+                    <img src="https://www.sephora.com/contentimages/categorybanners/RWD/icons/under_45.svg" alt="">
+                </div>
+            </div>
+            <div class="midlebaki" style="padding:5px;align-items:center;display: flex;justify-content:space-between;">
+                <p style="color: grey;font-size:13px;">1438 Products</p>
+            <div class="sortop" style="display: flex;">
+                <label for="">Sort by:</label>
+                <select name="sort" id="sort">
+                    <option value="">Sort</option>
+                    <option value="lth">Low to Hight</option>
+                    <option value="htl">High to low</option>
+                </select>
+            </div>
+            </div>
+            <div class="mainpro">
+
+            </div>
+        </div>
+    </div>
+    <!-- footer part -->
+    <div class="feedback">
+        <p id="openfeedback" onclick="openfeedback()">Website feedback? Let us know ></p>
+    </div>
+    <div class="popupfeedback">
+        <p class="closepopupfeedback" onclick="closeofferfb()">&#10005</p>
+        <h5>Sephora Feedback</h5>
+        <p class="ident"> Your Feedback Is Very Important For Us.</p>
+        <form>
+        <Label>Email</Label>
+        <input type="email" name="" id="email">
+        <label>Rating</label>
+        <select name="rate" id="rate">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+    <div class="footertop">
+        <div>
+            <img src="https://www.sephora.com/img/ufe/icons/find-store.svg" alt="">
+            <p>Find a Store Choose Your Store</p>
+        </div>
+        <div>
+            <span><i class="fa-regular fa-comment fa-1x"></i></span>
+            <p>Live Beauty Help Chat is unavailable</p>
+        </div>
+        <div>
+            <img src="https://www.sephora.com/img/ufe/icons/app.svg" alt="">
+            <p>Get the App Text *APP* to 36681</p>
+        </div>
+        <div>
+            <img src="https://www.sephora.com/img/ufe/icons/sms-ko.svg" alt="">
+            <p>Get Sephora Text Alerts Sing up Now</p>
+        </div>
+        <div>
+            <img src="https://www.sephora.com/img/ufe/icons/cc-outline-ko.svg" alt="">
+            <p>Sephora Credit Card Program</p>
+        </div>
+    </div>
+    <hr>
+    <div class="footermiddle">
+        <div>
+            <h4>About Sephora</h4>
+            <p>About Sephora</p>
+            <p>Newsroom</p>
+            <p>Careers</p>
+            <p>Sephora Social Impact</p>
+            <p>Supply Chain Transparency</p>
+            <p>Affiliates</p>
+            <p>Sephora Events</p>
+            <p>Gift Cards</p>
+            <p>Sephora Global Sites</p>
+            <p>Diversity and Inclusion</p>
+            <p>Checkout on Instagram</p>
+            <p>Sephora Accelerate</p>
+            <p>Report a Vulnerability</p>
+        </div>
+        <div>
+            <h4>My Sephora</h4>
+            <p>Beauty Insider</p>
+            <p>Sephora Credit Card</p>
+            <p>Community Profile</p>
+            <p>Order Status</p>
+            <p>Purchase History</p>
+            <p>Account Settings</p>
+            <p>Beauty Advisor Recommendations</p>
+            <p>Beauty Offers</p>
+            <p>Quizzes & Buying Guides</p>
+            <p>Rewards Bazaar</p>
+            <p>Loves</p>
+            <p>Book a Reservation</p>
+        </div>
+        <div>
+            <h4>Help</h4>
+            <p>Customer Service</p>
+            <p>Returns & Exchanges</p>
+            <p>Delivery and Pickup Options</p>
+            <p>Shipping</p>
+            <p>Billing</p>
+            <p>International Shipments</p>
+            <p>Beauty Services FAQ</p>
+            <p>Sephora at Kohl's</p>
+            <p>Sephora Inside JCPenney</p>
+            <p>Store Locations</p>
+            <p>Online Ordering</p>
+            <p>Klarna & Afterpay</p>
+            <p>Accessibility</p>
+        </div>
+        <div>
+            <h4>Region & Language</h4>
+            <span><img src="https://www.sephora.com/img/ufe/flags/us.svg" alt=""> United states - English</span>
+            <span><img src="https://www.sephora.com/img/ufe/flags/ca.svg" alt=""> Canada - English</span>
+            <span><img src="https://www.sephora.com/img/ufe/flags/ca.svg" alt=""> Canada - Francais</span>
+        </div>
+        <div>
+            <h1>We Belong to Something Beautiful</h1>
+            <div>
+                <h4>Sing up for Sephora Emails</h4>
+                <input type="email" placeholder="Enter Your Email Address" name="" id="">
+                <button>Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footerbottom">
+        <div>
+            <p>© 2022 Sephora USA, Inc. All rights reserved.</p>
+            <p>Privacy PolicyTerms of UseAccessibilitySitemapCA - Do Not Sell My Personal Information</p>
+            <p>1-877-737-4672    TTY: 1-888-866-9845</p>
+        </div>
+        <div>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-youtube fa-2x"></i>
+            <i class="fa-brands fa-pinterest fa-2x"></i>
+            <i class="fa-brands fa-snapchat fa-2x"></i>
+            <i class="fa-brands fa-tiktok fa-2x"></i>
+        </div>
+    </div>
+</body>
+</html>
+<!-- scripts -->
+<script src="/script/fragras.js"></script>
+<script src="https://kit.fontawesome.com/ba4f572cda.js" crossorigin="anonymous"></script>
